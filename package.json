@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node index",
-    "server": "nodemon index",
+    "server:dev": "nodemon index",
     "client": "npm start --prefix client",
     "dev": "concurrently \"yarn server\" \"yarn client\""
   },
